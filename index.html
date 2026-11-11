@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Cloud Computing</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #dbeafe, #e0e7ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            max-width: 550px;
+        }
+
+        h1 {
+            color: #2563eb;
+        }
+
+        p {
+            color: #444;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Welcome to Cloud Computing!</h1>
+
+        <p>
+            Your Python Flask application is successfully
+            running on Microsoft Azure App Service.
+        </p>
+
+        <p>Application: Python Flask</p>
+        <p>Cloud Platform: Microsoft Azure</p>
+
+        <button onclick="showMessage()">
+            Click Here
+        </button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Your Flask application is working successfully!");
+        }
+    </script>
+
+</body>
+</html>
